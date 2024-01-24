@@ -1,37 +1,43 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
-:root{
-  --main-font-family: 'Inter-Variable', sans-serif;
-  --accent-font-family: 'PressStart2P-Regular', sans-serif;
+:root {
+  --main-font-family: "Inter-Variable", sans-serif;
+  --accent-font-family: "PressStart2P-Regular", sans-serif;
   --title-wght: 700;
   --p-wght: 400;
-  --background-color: #FFFFFF;
+  --background-color: #ffffff;
   --accent-color: #000000;
   --background-image: repeating-linear-gradient(
-    to right,
-    #d3d3d3 0,
-    #d3d3d3 2px,
-    transparent 2px,
-    transparent 4px
-  ),
-  repeating-linear-gradient(
-    to bottom,
-    #d3d3d3 0,
-    #d3d3d3 2px,
-    transparent 2px,
-    transparent 4px
-  ),
-  linear-gradient(
-    to bottom,
-    #e7e7e7 0.01%,
-    #1a1a1a
-  );
+      to right,
+      #d3d3d3 0,
+      #d3d3d3 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    repeating-linear-gradient(
+      to bottom,
+      #d3d3d3 0,
+      #d3d3d3 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
   --max-width: clamp(23.4375rem, 0rem + 100vw, 90rem);
-  --title-uppercase-font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
+  --title-uppercase-font-size: clamp(
+    3.0625rem,
+    2.7104rem + 1.5023vw,
+    4.0625rem
+  );
   --margin-r-l-header: clamp(0rem, -8.1866rem + 34.9296vw, 23.25rem);
-  --page-row-gap: 100px;
-  --main-row-gap: 54px;
+  --page-row-gap: 54px;
+  --main-row-gap: 50px;
   --button-text-color: #fff;
 
   --contour-color: #000;
-  --fill-color: #FF0000;
+  --fill-color: #ff0000;
+}
+
+@media screen and (width <= 375px) {
+  :root{
+    
+  }
 }
