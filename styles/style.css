@@ -51,6 +51,7 @@
   min-inline-size: 320px;
   min-block-size: 100dvb;
   font-family: var(--main-font-family);
+  font-variation-settings: 'wgth' var(--title-wgh);
   color: var(--accent-color);
   background-color: var(--background-color);
   background-image: var(--background-image);
@@ -173,6 +174,7 @@
 }
 
 .main {
+  width: clamp(23.1875rem, 16.0352rem + 30.5164vw, 43.5rem);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -192,7 +194,7 @@
 .main__card-title {
   padding: 5px 10px;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: var(--title-wght);
   border-bottom: var(--accent-color) solid 2px;
 }
 
@@ -217,7 +219,7 @@
   font-family: var(--accent-font-family);
   font-size: 14px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: var(--p-wght);
   line-height: normal;
   text-transform: uppercase;
   mix-blend-mode: hard-light;
@@ -564,7 +566,7 @@
   #popup-id {
     width: 341px;
     min-height: 195px;
-    
+
   }
   .popup__inner-button {
     width: 257px;

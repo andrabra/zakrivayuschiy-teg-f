@@ -2,8 +2,10 @@
 :root {
   --main-font-family: "Inter-Variable", sans-serif;
   --accent-font-family: "PressStart2P-Regular", sans-serif;
+
   --title-wght: 700;
   --p-wght: 400;
+  
   --background-color: #ffffff;
   --accent-color: #000000;
   --background-image: repeating-linear-gradient(
@@ -36,8 +38,4 @@
   --fill-color: #ff0000;
 }
 
-@media screen and (width <= 375px) {
-  :root{
-    
-  }
-}
+
