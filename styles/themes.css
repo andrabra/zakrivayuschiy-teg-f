@@ -29,6 +29,10 @@
     #007f0c,
     #004306
   );
+  --button-text-color: #00CC14;
+
+  --contour-color: #00CC14;
+  --fill-color: #FF0000;
 }
 
 :root.theme-light {
@@ -55,6 +59,8 @@
     #e7e7e7 0.01%,
     #1a1a1a
   );
+  --contour-color: #000;
+  --fill-color: #FF0000;
 }
 
 
@@ -83,5 +89,9 @@
       #007f0c,
       #004306
     );
+    --button-text-color: #00CC14;
+    --contour-color: #00CC14;
+    --fill-color: #FF0000;
   }
+
 }

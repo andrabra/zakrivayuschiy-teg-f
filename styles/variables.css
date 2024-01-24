@@ -29,4 +29,9 @@
   --title-uppercase-font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
   --margin-r-l-header: clamp(0rem, -8.1866rem + 34.9296vw, 23.25rem);
   --page-row-gap: 100px;
+  --main-row-gap: 54px;
+  --button-text-color: #fff;
+
+  --contour-color: #000;
+  --fill-color: #FF0000;
 }
