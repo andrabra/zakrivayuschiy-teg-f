@@ -61,6 +61,7 @@
   );
   --contour-color: #000;
   --fill-color: #FF0000;
+  --button-text-color: #fff;
 }
 
 
@@ -68,7 +69,7 @@
   :root {
     --title-wght: 785;
     --p-wght: 465;
-    
+
     --background-color: #000000;
     --accent-color: #00CC14;
     --background-image: repeating-linear-gradient(

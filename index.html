@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Закрывающий тег</title>
-    <meta name="color-scheme" content="dark light" />
+    <meta name="color-scheme" content="light dark" />
     <link rel="stylesheet" href="./fonts/fonts.css" />
     <link rel="stylesheet" href="./styles/variables.css" />
     <link rel="stylesheet" href="./styles/globals.css" />
@@ -65,7 +65,7 @@
           <img
             class="main__card-img"
             src="./images/image-car.png"
-            alt="Camping car"
+            alt="Фургон для кемпинга"
           />
         </div>
         <div class="main__card-text-wrapper">
@@ -125,7 +125,7 @@
           <img
             class="main__card-img grayscale-brightness"
             src="./images/image-car.png"
-            alt="Camping car"
+            alt="Фургон для кемпинга"
           />
         </div>
         <div class="main__card-text-wrapper">
@@ -183,7 +183,11 @@
         <h2 class="main__card-title">1 спринт: А если не получится?</h2>
         <div class="main__card-img-wrapper">
           <span class="main__card-img-text">&lt;css&gt;</span>
-          <img class="main__card-img saturation" src="./images/image-car.png" alt="Camping car"/>
+          <img
+            class="main__card-img saturation"
+            src="./images/image-car.png"
+            alt="Фургон для кемпинга"
+          />
         </div>
         <div class="main__card-text-wrapper">
           <p class="main__card-text">
@@ -241,7 +245,7 @@
           <img
             class="main__card-img hue-rotate"
             src="./images/image-car.png"
-            alt="Camping car"
+            alt="Фургон для кемпинга"
           />
         </div>
         <div class="main__card-text-wrapper">
@@ -302,7 +306,7 @@
           <img
             class="main__card-img invert"
             src="./images/image-car.png"
-            alt="Camping car"
+            alt="Фургон для кемпинга"
           />
         </div>
         <div class="main__card-text-wrapper">
@@ -364,7 +368,7 @@
           <img
             class="main__card-img sepia"
             src="./images/image-car.png"
-            alt="Camping car"
+            alt="Фургон для кемпинга"
           />
         </div>
         <div class="main__card-text-wrapper">
@@ -425,7 +429,7 @@
           <img
             class="main__card-img blur"
             src="./images/image-car.png"
-            alt="Camping car"
+            alt="Фургон для кемпинга"
           />
         </div>
         <div class="main__card-text-wrapper">
@@ -486,7 +490,7 @@
           <img
             class="main__card-img hue-rotate-blur"
             src="./images/image-car.png"
-            alt="Camping car"
+            alt="Фургон для кемпинга"
           />
         </div>
         <div class="main__card-text-wrapper">
@@ -558,7 +562,7 @@
       </button>
     </footer>
 
-    <dialog id="popup-id">
+    <dialog id="popup-id" class="popup">
       <div class="popup__inner">
         <svg class="floppy" width="40" height="40" viewBox="0 0 40 40">
           <use href="./svg/floppy-symbol.svg#floppy" />
@@ -568,14 +572,11 @@
           >Вставьте дискету, чтобы продолжить</span
         >
       </div>
-
-      <button
-        class="footer__button popup__inner-button"
-        type="button"
-        onclick="window['popup-id'].close()"
-      >
-        <span class="footer__button-text">Ок</span>
-      </button>
+      <form method="dialog">
+        <button class="footer__button popup__inner-button" type="submit">
+          <span class="footer__button-text">Ок</span>
+        </button>
+      </form>
     </dialog>
 
     <script src="./scripts/like.js"></script>
