@@ -14,13 +14,11 @@
 
 */
 
-
-
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
   font-family: var(--main-font-family);
-  font-variation-settings: 'wgth' var(--title-wght);
+  font-variation-settings: "wgth" var(--title-wght);
   color: var(--accent-color);
   background-color: var(--background-color);
   background-image: var(--background-image);
@@ -163,7 +161,7 @@
 .main__card-title {
   padding: 5px 10px;
   font-size: 18px;
-  font-variation-settings: 'wgth' var(--title-wght);
+  font-variation-settings: "wgth" var(--title-wght);
   border-bottom: var(--accent-color) solid 2px;
 }
 
@@ -190,7 +188,8 @@
   z-index: 2;
 }
 
-@supports (-webkit-text-stroke: 1px var(--background-color)) or (text-stroke: 1px var(--background-color)) {
+@supports (-webkit-text-stroke: 1px var(--background-color)) or
+  (text-stroke: 1px var(--background-color)) {
   .main__card-img-text {
     text-shadow: none; /*сброс фолбека*/
     -webkit-text-stroke: 1px var(--background-color);
@@ -265,7 +264,6 @@
   height: 34px;
   outline: 2px solid transparent;
   transition: outline-color 0.3s ease;
-  margin-right: 4px;
 }
 
 .card__icon-button:focus {
@@ -551,7 +549,7 @@
   }
   .main__card-img-text {
     right: 10px;
-    top: 20px
+    top: 20px;
   }
 
   .main__card-text-wrapper {
@@ -567,10 +565,13 @@
     width: 306px;
     height: 80px;
   }
+  .floppy {
+    width: 28px;
+    height: 28px;
+  }
   #popup-id {
     width: 341px;
     min-height: 195px;
-
   }
   .popup__inner-button {
     width: 257px;
